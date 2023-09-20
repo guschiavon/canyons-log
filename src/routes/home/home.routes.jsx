@@ -544,7 +544,9 @@ const Home = () => {
         },
       ];     
       
-  const filters = Array.from(new Set(canyons.map((canyon) => canyon.location.country)));         
+  const filters = Array.from(new Set(canyons.map((canyon) => canyon.location.country)));
+  
+  
   return (
     
     <CanyonDirectory canyons={canyons} filters={filters} /> 

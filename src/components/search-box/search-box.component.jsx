@@ -6,7 +6,7 @@ const SearchBox = ({ onChange, placeholder }) => {
     <input
       type="text"
       placeholder={placeholder}
-      className="input w-full max-w-xs"
+      className="input w-full max-w-xs text-xs"
       onChange={onChange} />    
   )
 

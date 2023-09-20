@@ -7,14 +7,12 @@ import Authentication from './routes/authentication/authentication.routes';
 const App = () => {    
     return (   
       <div className='bg-gray-700 min-h-screen'>
-        <div className='container mx-auto py-3'>
-          <Routes>
-            <Route path='/' element={<Navigation />}>
-              <Route index element={<Home />} />
-              <Route path='/auth' element={<Authentication />} />
-            </Route>
-          </Routes>        
-        </div>
+        <Routes>
+          <Route path='/' element={<Navigation />}>            
+            <Route index element={<Home />} />
+            <Route path='/auth' element={<Authentication />} />            
+          </Route>
+        </Routes>        
       </div>   
     )
   }

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useId } from "react";
 import CanyonCard from "../canyon-card/canyon-card.component";
 import SearchBox from "../search-box/search-box.component";    
 import Filter from "../filter-container/filter-container.component";
@@ -7,7 +7,7 @@ import Filter from "../filter-container/filter-container.component";
 const CanyonDirectory = ({ canyons, filters }) =>  {
   const [activeFilters, setActiveFilters] = useState(new Set())  
   const [searchQuery, setSearchQuery] = useState('')
-
+  const id = useId()
   const onFilterChangeHandler = (e) => {
     const filterName = e.target.name;
     setActiveFilters((prevActiveFilters) => {
@@ -22,10 +22,6 @@ const CanyonDirectory = ({ canyons, filters }) =>  {
         return updatedFilters;
       });
     };
-    // Filter feature
-    // const filteredCanyons = activeFilters.size === 0
-    // ? canyons
-    // : canyons.filter((canyon) => activeFilters.has(canyon.location.country));
   
 
     const onSearchChangeHandler = (e) => {      
@@ -44,12 +40,13 @@ const CanyonDirectory = ({ canyons, filters }) =>  {
     <div className="grid grid-cols-12 gap-12">
       <div className="col-span-2 flex flex-col items-between justify-start p-4">
         <div className="search-container">
-          <SearchBox placeholder='Search' onChange={onSearchChangeHandler} />
+          <SearchBox placeholder={'Search canyon by name'} onChange={onSearchChangeHandler} />
+          <span className="italic text-xs font-light py-4">Database: {canyons.length} canyons</span>
         </div>
         <h3 className="uppercase font-semibold tracking-wider">Filters</h3>
         {filters.map((filter) => {
           return (
-            <Filter key={filter.indexOf()} filter={filter} onChange={onFilterChangeHandler}/>
+            <Filter key={id + filter} filter={filter} onChange={onFilterChangeHandler}/>
           )
         })}
       

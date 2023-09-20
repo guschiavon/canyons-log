@@ -9,8 +9,8 @@ const CanyonCard = ({ canyon }) => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">      
       <div className="card-body">
-        <h2 className="card-title">{name}</h2>
-        <p>{location.country}</p>
+        <h2 className="card-title text-4xl">{name}</h2>
+        <p>{location.region} - {location.country}</p>
         <span className="font-bold text-xl text-yellow-500">V{information.rating.vertical}A{information.rating.aquatic}{information.rating.committment}</span>
         <div className="rating rating-xs">
           <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
@@ -20,7 +20,7 @@ const CanyonCard = ({ canyon }) => {
           <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
         </div>
         <div className="card-actions justify-end">
-            <button className="btn btn-primary">+ INFO</button>
+          <button className="btn btn-primary">+ INFO</button>
         </div>
       </div>
     </div>
