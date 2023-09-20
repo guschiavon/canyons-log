@@ -1,0 +1,64 @@
+{
+  "id": 1,
+  "userEmail": "",
+  "userName": "",
+  "createdAt": "",
+  "lastSeenAt": "",
+  "isAdmin": true,
+  "isPro": true,
+  "isPatron": true,
+  "displayName": "Gus Schiavon",
+  "profileImage": "",
+  "nationality": "Brazil",
+  "hometown": "Curitiba",
+  "dateOfBirth": "27/06/1983",
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "tiktok": "",
+    "twitter": ""
+  },
+  "certifications": [
+    {
+      "id": 1,
+      "certificationName": "",
+      "certificationProvider": "",
+      "certificationDateOfIssue": "",
+      "certificationDateOfExpiry": "",
+    }
+  ],
+  "followers": [],
+  "following": [],
+  "comments": [],
+  "reports": [],
+  "groups": [{
+    "id": 1,
+    "groupName": "",
+    "groupLogo": "",
+    "groupMemberSince": "",
+    "isGroupAdmin": false
+  }],
+  "teams": [
+    {
+      "id": 1,
+      "teamName": "V7 Team",
+      "teamRole": "Photographer",
+      "teamMemberSince": "",
+      "isGroupFounder": true,
+      "isGroupAdmin": true
+    }],
+  "equipment": [
+    {
+      "id": 1,    
+      "type": "Hardware",
+      "brand": "Petzl",
+      "model": "",
+      "uniqueIdentifier": "",
+      "dateOfPurchase": "",
+      "dateOfFirstUse": "",
+      "image": []
+    }
+  ],
+  "badges": [] // list of badges based on contributions
+
+}

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 const SearchFilter = ({ filters }) => {  
     const [filterList, setFilterList] = useState(filters)
+    console.log('SearchFilter',filterList);
      // Use useEffect to update localFilters when filters prop changes
     useEffect(() => {
       setFilterList(filters);

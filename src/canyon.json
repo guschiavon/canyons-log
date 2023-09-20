@@ -1,0 +1,90 @@
+{
+  "id": 1,
+  "name": "Bedford Stream", // string
+  "location": {
+    // extract from Maps API with ability to override values pulled; user should be able to drag-and-drop pin which 
+    "country": "New Zealand", // select (from country list)
+    "region": "Mount Aspiring", // string
+    "nearestTown": "Glenorchy", // string
+    "access": "public", // select (public - private - permit)
+    "coordinates": [
+      {
+        "canyonPutIn": {
+          "latitude": "-44.602170",
+          "longitude": "168.369616"
+        },
+        "parking": {
+          "latitude": "-44.602170",
+          "longitude": "168.369616"
+        }
+        
+    }]
+  },
+  "information": {
+    "canyonTopography": "", // PDF of the canyon map 
+    "historicalInfo": {
+      "firstDescentDate": "", // datetime
+      "firstDescentTeam": "", // string
+      "latestDescentDate": "", // datetime
+      "latestDescentReportedBy": "" // user
+    },
+    "descentDescription": {
+      "approach": "", // markdown
+      "descent": "", // markdown
+      "return": "" // markdown
+    },
+    "canyonDuration": {
+      "approach": "", // integer
+      "descent": "", // integer
+      "return": "" // integer
+    },
+    "rating": {
+      "vertical": "", // integer (1-7)
+      "aquatic": "", // integer (1-7)
+      "committment": "", // integer (1-7)
+      "interest": "" // integer range (1-5)
+    },
+    "technicalDefinitions": {
+      "typeOfRock": "", // string (or select from list of previously entries)
+      "catchmentSizeInSqKm": "", // integer
+      "highestWaterfall": "", // integer
+      "highestPitch": "", // integer
+      "lenghtInMeters": "", // integer
+      "elevationAtEntryPointInMeters": "", // integer
+      "elevationLossInMeters": "", // integer
+      "minRopeRequirementsInMeters": "", // integer
+      "anchorSetUp": "", // string
+      "shuttle": {
+        "required": false,
+        "distanceInKm": "", // integer 
+        "parkingCoordinates": {
+          "latitude": "", 
+          "longitude": ""
+        }
+      }
+    },
+    "images": [], // image
+    "reports": [
+      {
+        "id": 1,
+        "user": "", 
+        "descentLog": {
+          "descentQuality": "", // select (1-5)
+          "dateOfDescent": "", // datetime
+          "groupSize": "", // integer
+          "groupLevel": "", // select (Guided - Beginner - Intermediate - Advanced)
+          "approachDurationInMinutes": "", // integer
+          "descentDurationInMinutes": "", // integer
+          "returnDurationInMinutes": "", // integer
+          "conditions": {
+            "waterLevelObserved": "medium", // select (very low - low - medium - medium-high - high - flood)
+            "airTemperatureInCelsius": "", // integer
+            "waterTemperatureInCelsius": "",// integer
+            "remarks": "", // markdown
+            "photos": []
+          }
+        }
+      }
+    ]
+  }
+}

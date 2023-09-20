@@ -1,0 +1,3 @@
+https://ropewiki.com/index.php?title=Special:Ask&x=-5B-5BCategory%3ACanyons-5D-5D-5B-5BCategory%3ACanyons-5D-5D%2F-3FHas-20info-20major-20region%2F-3FHas-20user-20rating-23-2D%2F-3FHas-20user-20counter-23-2D%2F-3FHas-20rating%3D5%2F-3FHas-20info-20rappels%2F-3FHas-20info-20longest-20rappel%2F-3FHas-20info-20length-20of-20hike%2F-3FHas-20info-20typical-20time%2F-3FHas-20info%3D10%2F-3FHas-20info-20condition%2F-3FHas-20info-20length%2F-3FHas-20info-20depth%2F-3FHas-20star-20rating%2F-3FHas-20location-20class&format=template&link=none&sort=Modification%20date&order=descending&template=ListLineDisplay&introtemplate=ListHeaderDisplay&outrotemplate=ListFooterDisplay&offset=15
+
+https://ropewiki.com/api.php?titles=Special&prop=links&format=json
