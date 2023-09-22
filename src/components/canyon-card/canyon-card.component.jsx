@@ -1,11 +1,18 @@
+import {
+  Link
+} from "react-router-dom";
 
 
 const CanyonCard = ({ canyon }) => {
   const {
+    id,
     name,
     location,
     information
   } = canyon;  
+
+  const slug = name.replace(/\s+/g, '-').toLowerCase();
+  
   return (
     <div className="card w-96 bg-base-100 shadow-xl">      
       <div className="card-body">
@@ -20,7 +27,7 @@ const CanyonCard = ({ canyon }) => {
           <input type="radio" name="rating-5" className="mask mask-star-2 bg-orange-400" />
         </div>
         <div className="card-actions justify-end">
-          <button className="btn btn-primary">+ INFO</button>
+          <Link to={`${id}/${slug}`} className="btn btn-primary">+ INFO</Link>
         </div>
       </div>
     </div>

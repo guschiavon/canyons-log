@@ -1,0 +1,668 @@
+[
+   {
+      "id":1,
+      "name":"Bedford Stream",
+      "location":{
+         "country":"New Zealand",
+         "region":"Mount Aspiring",
+         "nearestTown":"Glenorchy",
+         "access":"public",
+         "coordinates":[
+            {
+               "canyonPutIn":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               },
+               "parking":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               }
+            }
+         ]
+      },
+      "information":{
+         "canyonTopography":[],
+         "historicalInfo":{
+            "firstKnownDescentDate":"",
+            "firstKnownDescentTeam":[{
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }],
+            "latestRecordedDescentDate":"",
+            "latestDescentReportedBy": {
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }            
+         },
+         "descentDescription":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "canyonDuration":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "rating":{
+            "vertical":"6",
+            "aquatic":"5",
+            "committment":"VI",
+            "interest":""
+         },
+         "technicalDefinitions":{
+            "typeOfRock":"",
+            "catchmentSizeInSqKm":"",
+            "highestWaterfall":"",
+            "highestPitch":"",
+            "lengthInMeters":"",
+            "elevationAtEntryPointInMeters":"",
+            "elevationLossInMeters":"",
+            "minRopeRequirementsInMeters":"",
+            "anchorSetup":"",
+            "waterLevelReferencePhotos": [
+               
+            ],
+            "shuttle":{
+               "required":false,
+               "distanceInKm":"",
+               "parkingCoordinates":{
+                  "latitude":"",
+                  "longitude":""
+               }
+            }
+         },
+         "photos":[
+            
+         ],
+         "reports":[
+            {
+               "id":1,
+               "user": {
+                  "id": "",
+                  "userName": "",
+                  "profileImage": []
+
+               },
+               "descentLog":{
+                  "descentQuality":"",
+                  "dateOfDescent":"",
+                  "groupSize":"",
+                  "groupLevel":"",
+                  "approachDurationInMinutes":"",
+                  "descentDurationInMinutes":"",
+                  "returnDurationInMinutes":"",
+                  "conditions":{
+                     "waterLevelObserved":"medium",
+                     "airTemperatureInCelsius":"",
+                     "waterTemperatureInCelsius":"",
+                     "remarks":"",
+                     "photos":[
+                        
+                     ]
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "id":2,
+      "name":"Gloomy Gorge",
+      "location":{
+        "country" :"New Zealand",
+         "region":"Matukituki",
+         "nearestTown":"Wanaka",
+         "access":"public",
+         "coordinates":[
+               {
+               "canyonPutIn":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               },
+               "parking":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               }
+            }
+         ]
+      },
+      "information":{
+         "canyonTopography":[],
+         "historicalInfo":{
+            "firstKnownDescentDate":"",
+            "firstKnownDescentTeam":[{
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }],
+            "latestRecordedDescentDate":"",
+            "latestDescentReportedBy": {
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }            
+         },
+         "descentDescription":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "canyonDuration":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "rating":{
+            "vertical":"6",
+            "aquatic":"6",
+            "committment":"VI",
+            "interest":""
+         },
+         "technicalDefinitions":{
+            "typeOfRock":"",
+            "catchmentSizeInSqKm":"",
+            "highestWaterfall":"",
+            "highestPitch":"",
+            "lengthInMeters":"",
+            "elevationAtEntryPointInMeters":"",
+            "elevationLossInMeters":"",
+            "minRopeRequirementsInMeters":"",
+            "anchorSetup":"",
+            "waterLevelReferencePhotos": [
+
+            ],
+            "shuttle":{
+               "required":false,
+               "distanceInKm":"",
+               "parkingCoordinates":{
+                  "latitude":"",
+                  "longitude":""
+               }
+            }
+         },
+         "photos":[
+            
+         ],
+         "reports":[
+            {
+               "id":1,
+               "user": {
+                  "id": "",
+                  "userName": "",
+                  "profileImage": []
+
+               },
+               "descentLog":{
+                  "descentQuality":"",
+                  "dateOfDescent":"",
+                  "groupSize":"",
+                  "groupLevel":"",
+                  "approachDurationInMinutes":"",
+                  "descentDurationInMinutes":"",
+                  "returnDurationInMinutes":"",
+                  "conditions":{
+                     "waterLevelObserved":"medium",
+                     "airTemperatureInCelsius":"",
+                     "waterTemperatureInCelsius":"",
+                     "remarks":"",
+                     "photos":[
+                        
+                     ]
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "id":3,
+      "name":"Gorgas del Nuria",
+      "location":{
+         "country":"Spain",
+         "region":"Catalunya",
+         "nearestTown":"Sant Joan de les Abadasses",
+         "access":"public",
+         "coordinates":[
+            {
+               "canyonPutIn":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               },
+               "parking":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               }
+            }
+         ]
+      },
+      "information":{
+         "canyonTopography":[],
+         "historicalInfo":{
+            "firstKnownDescentDate":"",
+            "firstKnownDescentTeam":[{
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }],
+            "latestRecordedDescentDate":"",
+            "latestDescentReportedBy": {
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }            
+         },
+         "descentDescription":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "canyonDuration":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "rating":{
+            "vertical":"4",
+            "aquatic":"4",
+            "committment":"III",
+            "interest":""
+         },
+         "technicalDefinitions":{
+            "typeOfRock":"",
+            "catchmentSizeInSqKm":"",
+            "highestWaterfall":"",
+            "highestPitch":"",
+            "lengthInMeters":"",
+            "elevationAtEntryPointInMeters":"",
+            "elevationLossInMeters":"",
+            "minRopeRequirementsInMeters":"",
+            "anchorSetup":"",
+            "waterLevelReferencePhotos": [
+               
+            ],
+            "shuttle":{
+               "required":false,
+               "distanceInKm":"",
+               "parkingCoordinates":{
+                  "latitude":"",
+                  "longitude":""
+               }
+            }
+         },
+         "photos":[
+            
+         ],
+         "reports":[
+            {
+               "id":1,
+               "user": {
+                  "id": "",
+                  "userName": "",
+                  "profileImage": []
+
+               },
+               "descentLog":{
+                  "descentQuality":"",
+                  "dateOfDescent":"",
+                  "groupSize":"",
+                  "groupLevel":"",
+                  "approachDurationInMinutes":"",
+                  "descentDurationInMinutes":"",
+                  "returnDurationInMinutes":"",
+                  "conditions":{
+                     "waterLevelObserved":"medium",
+                     "airTemperatureInCelsius":"",
+                     "waterTemperatureInCelsius":"",
+                     "remarks":"",
+                     "photos":[
+                        
+                     ]
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "id":4,
+      "name":"Oules des Freissinieres",
+      "location":{
+         "country":"France",
+         "region":"Alps",
+         "nearestTown":"Freissinieres",
+         "access":"public",
+         "coordinates":[
+            {
+               "canyonPutIn":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               },
+               "parking":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               }
+            }
+         ]
+      },
+      "information":{
+         "canyonTopography":[],
+         "historicalInfo":{
+            "firstKnownDescentDate":"",
+            "firstKnownDescentTeam":[{
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }],
+            "latestRecordedDescentDate":"",
+            "latestDescentReportedBy": {
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }            
+         },
+         "descentDescription":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "canyonDuration":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "rating":{
+            "vertical":"5",
+            "aquatic":"5",
+            "committment":"VI",
+            "interest":""
+         },
+         "technicalDefinitions":{
+            "typeOfRock":"",
+            "catchmentSizeInSqKm":"",
+            "highestWaterfall":"",
+            "highestPitch":"",
+            "lengthInMeters":"",
+            "elevationAtEntryPointInMeters":"",
+            "elevationLossInMeters":"",
+            "minRopeRequirementsInMeters":"",
+            "anchorSetup":"",
+            "waterLevelReferencePhotos": [
+               
+            ],
+            "shuttle":{
+               "required":false,
+               "distanceInKm":"",
+               "parkingCoordinates":{
+                  "latitude":"",
+                  "longitude":""
+               }
+            }
+         },
+         "photos":[
+            
+         ],
+         "reports":[
+            {
+               "id":1,
+               "user": {
+                  "id": "",
+                  "userName": "",
+                  "profileImage": []
+
+               },
+               "descentLog":{
+                  "descentQuality":"",
+                  "dateOfDescent":"",
+                  "groupSize":"",
+                  "groupLevel":"",
+                  "approachDurationInMinutes":"",
+                  "descentDurationInMinutes":"",
+                  "returnDurationInMinutes":"",
+                  "conditions":{
+                     "waterLevelObserved":"medium",
+                     "airTemperatureInCelsius":"",
+                     "waterTemperatureInCelsius":"",
+                     "remarks":"",
+                     "photos":[
+                        
+                     ]
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "id":5,
+      "name":"Malacara",
+      "location":{
+         "country":"Brazil",
+         "region":"Aparados da Serra NP",
+         "nearestTown":"Praia Grande",
+         "access":"public",
+         "coordinates":[
+            {
+               "canyonPutIn":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               },
+               "parking":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               }
+            }
+         ]
+      },
+      "information":{
+         "canyonTopography":[],
+         "historicalInfo":{
+            "firstKnownDescentDate":"",
+            "firstKnownDescentTeam":[{
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }],
+            "latestRecordedDescentDate":"",
+            "latestDescentReportedBy": {
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }           
+         },
+         "descentDescription":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "canyonDuration":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "rating":{
+            "vertical":"5",
+            "aquatic":"4",
+            "committment":"VI",
+            "interest":""
+         },
+         "technicalDefinitions":{
+            "typeOfRock":"",
+            "catchmentSizeInSqKm":"",
+            "highestWaterfall":"",
+            "highestPitch":"",
+            "lengthInMeters":"",
+            "elevationAtEntryPointInMeters":"",
+            "elevationLossInMeters":"",
+            "minRopeRequirementsInMeters":"",
+            "anchorSetup":"",
+            "waterLevelReferencePhotos": [
+               
+            ],
+            "shuttle":{
+               "required":false,
+               "distanceInKm":"",
+               "parkingCoordinates":{
+                  "latitude":"",
+                  "longitude":""
+               }
+            }
+         },
+         "photos":[
+            
+         ],
+         "reports":[
+            {
+               "id":1,
+               "user": {
+                  "id": "",
+                  "userName": "",
+                  "profileImage": []
+
+               },
+               "descentLog":{
+                  "descentQuality":"",
+                  "dateOfDescent":"",
+                  "groupSize":"",
+                  "groupLevel":"",
+                  "approachDurationInMinutes":"",
+                  "descentDurationInMinutes":"",
+                  "returnDurationInMinutes":"",
+                  "conditions":{
+                     "waterLevelObserved":"medium",
+                     "airTemperatureInCelsius":"",
+                     "waterTemperatureInCelsius":"",
+                     "remarks":"",
+                     "photos":[
+                        
+                     ]
+                  }
+               }
+            }
+         ]
+      }
+   },
+   {
+      "id":6,
+      "name":"Ribeira de Casas",
+      "location":{
+         "country":"Portugal",
+         "region":"Flores",
+         "nearestTown":"Fajã Grande",
+         "access":"public",
+         "coordinates":[
+            {
+               "canyonPutIn":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               },
+               "parking":{
+                  "latitude":"-44.602170",
+                  "longitude":"168.369616"
+               }
+            }
+         ]
+      },
+      "information":{
+         "canyonTopography":[],
+         "historicalInfo":{
+            "firstKnownDescentDate":"",
+            "firstKnownDescentTeam":[{
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }],
+            "latestRecordedDescentDate":"",
+            "latestDescentReportedBy": {
+               "id": "1",
+               "name": "",
+               "userName": "",
+               "email": ""
+            }            
+         },
+         "descentDescription":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "canyonDuration":{
+            "approach":"",
+            "descent":"",
+            "return":""            
+         },
+         "rating":{
+            "vertical":"5",
+            "aquatic":"3",
+            "committment":"III",
+            "interest":""
+         },
+         "technicalDefinitions":{
+            "typeOfRock":"",
+            "catchmentSizeInSqKm":"",
+            "highestWaterfall":"",
+            "highestPitch":"",
+            "lengthInMeters":"",
+            "elevationAtEntryPointInMeters":"",
+            "elevationLossInMeters":"",
+            "minRopeRequirementsInMeters":"",
+            "anchorSetup":"",
+            "waterLevelReferencePhotos": [
+               
+            ],
+            "shuttle":{
+               "required":false,
+               "distanceInKm":"",
+               "parkingCoordinates":{
+                  "latitude":"",
+                  "longitude":""
+               }
+            }
+         },
+         "photos":[
+            
+         ],
+         "reports":[
+            {
+               "id":1,
+               "user": {
+                  "id": "",
+                  "userName": "",
+                  "profileImage": []
+
+               },
+               "descentLog":{
+                  "descentQuality":"",
+                  "dateOfDescent":"",
+                  "groupSize":"",
+                  "groupLevel":"",
+                  "approachDurationInMinutes":"",
+                  "descentDurationInMinutes":"",
+                  "returnDurationInMinutes":"",
+                  "conditions":{
+                     "waterLevelObserved":"medium",
+                     "airTemperatureInCelsius":"",
+                     "waterTemperatureInCelsius":"",
+                     "remarks":"",
+                     "photos":[
+                        
+                     ]
+                  }
+               }
+            }
+         ]
+      }
+   }
+]

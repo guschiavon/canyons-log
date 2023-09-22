@@ -4,7 +4,9 @@ import {
   getAuth,  
   signInWithRedirect,
   getRedirectResult,
-  GoogleAuthProvider  
+  GoogleAuthProvider,
+  signOut,
+  onAuthStateChanged  
  } from 'firebase/auth'
 
  import {
@@ -27,7 +29,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 // Instantiate the auth and database from Firebase according to the config
-const auth = getAuth();
+const auth = getAuth(app);
 const db = getFirestore();
 
 // Create as many according to the methods in Firebase
@@ -78,5 +80,14 @@ export const redirectResponse = async () => {
   }
 }
 
+export const signOutUser = async () => {
+  await signOut(auth)
+  try {
+    return
+  } catch (e) {
+    console.log(e.code);
+  }
+}
 
+export const onAuthStateChangedListener = (callback) => onAuthStateChanged(auth, callback)
 

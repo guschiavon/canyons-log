@@ -6,7 +6,7 @@ const Home = () => {
         <h1 className="font-heading text-6xl md:text-9xl font-bold">A community-driven database of canyons, for free.</h1>
         <p className="font-body text-3xl font-light">Log your canyon descents and contribute to the community</p>
         <div>
-          <Link to={'/auth'} className="btn btn-accent ">Become a member</Link>
+          <Link to={'/auth'} className="btn btn-accent text-2xl ">Start Logging</Link>
         </div>
       </div>
     </div>

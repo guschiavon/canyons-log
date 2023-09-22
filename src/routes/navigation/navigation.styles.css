@@ -1,0 +1,3 @@
+.nav-link {
+  @apply font-body text-sm hover:text-yellow-500 transition-colors;
+}

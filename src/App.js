@@ -5,6 +5,8 @@ import Home from './routes/home/home.routes';
 import Profile from './routes/profile/profile.routes';
 import Directory from './routes/directory/directory.routes';
 import Authentication from './routes/authentication/authentication.routes';
+import Canyon from './routes/canyon/canyon.routes';
+import PageNotFound from './routes/404/404.routes'
 
 const App = () => {    
     return (   
@@ -12,9 +14,13 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Navigation />}>            
             <Route index element={<Home />} />
-            <Route path='/directory' element={<Directory />} />
+            <Route path='/canyons'>
+              <Route index element={<Directory />} />
+              <Route path=':id/:canyonId' element={<Canyon />} />                        
+            </Route>                        
             <Route path='/auth' element={<Authentication />} />      
-            <Route path='/profile' element={<Profile />} />     
+            <Route path='/profile' element={<Profile />} />    
+            <Route path='*' element={<PageNotFound />} />
           </Route>
         </Routes>        
       </div>   
