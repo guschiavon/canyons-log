@@ -1,13 +1,24 @@
 import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { CanyonsContext } from "../../contexts/canyons.context"
-
+import { UserContext } from "../../contexts/users.context";
 
 const Canyon = () => {
   const { canyons } = useContext(CanyonsContext)
+  const { currentUser } = useContext(UserContext);
   const { id } = useParams()
   const canyonObj = canyons.filter((canyon) => canyon.id == id )
   
+  const logDescent = () => {
+    if (!currentUser) {
+      alert('You must sign in to log a descent')
+      return;
+    } else {
+      alert('You can log your descent')
+    }
+    
+  }
+
   const {
     name,
     location,
@@ -23,7 +34,7 @@ const Canyon = () => {
           <p className="font-body font-light text-3xl">{location.country}</p>
           <span className="font-heading font-bold text-4xl text-yellow-500 tracking-wider">V{information.rating.vertical}A{information.rating.aquatic}{information.rating.committment}</span>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary" >Log Canyon</button>
+            <button className="btn btn-warning" onClick={logDescent} >Log Descent</button>
           </div>
         </div>
       </div>

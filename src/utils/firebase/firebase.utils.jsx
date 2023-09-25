@@ -2,7 +2,9 @@
 import { initializeApp } from "firebase/app";
 import {  
   getAuth,  
-  signInWithRedirect,
+  signInWithRedirect,  
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
   getRedirectResult,
   GoogleAuthProvider,
   signOut,
@@ -35,7 +37,8 @@ const db = getFirestore();
 // Create as many according to the methods in Firebase
 const google = new GoogleAuthProvider();
 
-export const signInWithGoogleRedirect = () => signInWithRedirect(auth, google);
+export const signInWithGoogleRedirect = async () => await signInWithRedirect(auth, google);
+
 
 export const createUserDocumentFromAuth = async (userAuth, additionalInfo) => {
   if (!userAuth) return;
@@ -44,7 +47,7 @@ export const createUserDocumentFromAuth = async (userAuth, additionalInfo) => {
   // create a user snapshot to validate if exists already or not
   const userSnapshot = await getDoc(userDocRef);
   
-  // if user data doesnt exist
+  // if user data doesn't exist
   // create / set document with the data from userAuth in my Firebase collection
   if (!userSnapshot.exists()) {
     // abstract user object values
@@ -87,6 +90,11 @@ export const signOutUser = async () => {
   } catch (e) {
     console.log(e.code);
   }
+}
+
+export const createAuthUserWithEmailAndPassword = async (email, password) => {
+  if (!email || !password ) return;
+  return await createUserWithEmailAndPassword(auth, email, password);  
 }
 
 export const onAuthStateChangedListener = (callback) => onAuthStateChanged(auth, callback)

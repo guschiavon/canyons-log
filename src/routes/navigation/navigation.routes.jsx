@@ -5,7 +5,6 @@ import UserMenu from "../../components/user-menu/user-menu.component";
 import './navigation.styles.css';
 import { useContext } from "react";
 import { UserContext } from "../../contexts/users.context";
-import { signOutUser } from "../../utils/firebase/firebase.utils";
 
 const Navigation = () => {
   const { currentUser } = useContext(UserContext)
@@ -23,7 +22,7 @@ const Navigation = () => {
         {
           currentUser
           ? <UserMenu />
-          : <Link to={'/auth'} className="btn btn-accent">Sign In</Link>
+          : <Link to={'/auth'} className="btn btn-outline btn-warning">Sign In</Link>
         }                
         </div>
       </div>      

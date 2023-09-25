@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-
-import { signInWithGoogleRedirect, redirectResponse } from "../../utils/firebase/firebase.utils";
+import { redirectResponse } from "../../utils/firebase/firebase.utils";
+import SignUpForm from "../../components/sign-up-form/sign-up-form.component";
 
 const Authentication = () => {
   useEffect(() => {
@@ -8,10 +8,8 @@ const Authentication = () => {
   }, [])
 
   return (
-    <div className="container mx-auto flex items-center justify-center">
-      <div className="w-full md:w-1/2 flex items-center justify-center">
-        <button className="btn btn-info" onClick={signInWithGoogleRedirect}>Sign In With Google</button>
-      </div>
+    <div className="rounded-md border-2 border-gray-500 w-[400px] mx-auto p-6">
+      <SignUpForm />
     </div>
   )
 }
